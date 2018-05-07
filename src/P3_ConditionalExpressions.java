@@ -9,14 +9,14 @@ import java.util.Scanner;
 /*
  Your expected result:
  
- 1.
- 2.
- 3. 
- 4.
+ 1. True
+ 2. False
+ 3. False
+ 4. True
  
- 5.
- 6.
- 7.
+ 5. False
+ 6. True
+ 7. False
   
  */
 public class P3_ConditionalExpressions {
