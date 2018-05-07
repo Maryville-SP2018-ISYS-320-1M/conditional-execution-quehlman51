@@ -16,8 +16,17 @@ public class P5_PayProgram {
 		
 		System.out.println("Enter the number of hours you worked this week: ");
 		int numOfHoursWorked = input.nextInt();
-		
-		
+		double pay = computePay(hourlyRate, numOfHoursWorked); 
+		System.out.println("Total Pay = " + pay);
+
+	}
+	public static double computePay(double hourlyRate, int numOfHoursWorked) {
+		double computePay; 
+		if(numOfHoursWorked <= 40)  
+			computePay = hourlyRate * numOfHoursWorked; 
+		else 
+			computePay = (hourlyRate * numOfHoursWorked) + (1.5 * (hourlyRate * (numOfHoursWorked - 8))); 
+		return computePay; 
 
 	}
 
