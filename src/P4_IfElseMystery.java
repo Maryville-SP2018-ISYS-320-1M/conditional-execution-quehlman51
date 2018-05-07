@@ -7,10 +7,10 @@
 /*
  Your expected results after the input is provided:
  
- 1.
- 2.
- 3. 
- 4.
+ 1. Blank
+ 2. Blank
+ 3. 3 4
+ 4. 29 30
   
  */
 public class P4_IfElseMystery {
